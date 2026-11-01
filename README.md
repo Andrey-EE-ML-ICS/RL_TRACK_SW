@@ -17,4 +17,9 @@
 **requrements.txt**
 
 
-
+## Как запустить
+1. Клонирвоать репозиторий: `git clone https://github.com/Andrey-EE-ML-ICS/RL_TRACK_SW`
+1. Установить зависимости: `pip install -r requirements.txt`
+2. Запустить ноутбук сверху вниз (`Run All`).
+3. Время выполнения на CPU: ~30–40 мин (обучение двух агентов по 500k шагов + оценка).
+4. Для записи видео нужен `ffmpeg` (или `pip install imageio-ffmpeg`).
